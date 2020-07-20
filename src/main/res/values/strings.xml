@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AtoZ Carrer Guide</string>
+
+    <string-array name="names">
+        <item>Surat</item>
+        <item>Ahmedabad</item>
+        <item>Gandhinagar</item>
+        <item>Vadodara</item>
+        <item>Rajkot</item>
+        <item>Junagadh</item>
+    </string-array>
+</resources>

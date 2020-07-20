@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SscCourse"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="23dp"
+                                android:text="About Diploma"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:text="Diploma courses after Class 10 have become popular among the students as they open up opportunities for student enrollment in colleges without the requirement of completing class 12. The diploma courses after 10th are industry-focused and offer hands-on training in the respective field so that seeking jobs become easier. Diploma courses after 10th in India are highly relevant in terms of curriculum, structure and scope.Popular Diploma Courses after 10th:
+                                                                    Diploma in Engineering,Commercial Art Diploma,Art Teacher Diploma,Diploma in Stenography,Diploma in 3D Animation,Diploma in Cyber Security,Diploma in Agriculture,Diploma in Hotel Management and Catering Technology,Diploma in Fashion Technology."
+                                android:textColor="#90ffffff"></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="23dp"
+                                android:text="About Science"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:text="Science is divided in to two viz.,                             applied = engineering and technology / medicine
+    pure = theoretical and research science (Bsc)           The option of choosing either applied science / pure science is done after High School. Math is important for students planning for course related to Engineering. Biology is important for students planning for course related to Medicine. cience students spends more time if one take in to account the time spent for practicals and tuitions "
+                                android:textColor="#90ffffff"></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="23dp"
+                                android:text="About Commerce"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:text="Commerce course covers basically accounting, economics and related subjects relevant to trade and business.Comfortable with calculations and number crunching ie., good analytical skill.Commerce is less stressful in terms of hours spent in colleges/studies.Commerce students cannot change to streams/courses related to Science after XII"
+                                android:textColor="#90ffffff"></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="23dp"
+                                android:text="About Arts"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:text=" Deals with a very wide range of courses such as History, Geography, Political Science, Psychology, Sociology, languages, Anthropology, Human Resources, journalism etc.If anyone has interest to pursue a career in mass media, journalism, literature, sociology, social service, human psychology, politics, economics and history then you must choose Arts stream after passing 10th examination.
+
+Read more at: https://www.careerindia.com/news/2013/04/23/what-are-the-career-options-after-10th-standard-004721.html"
+                                android:textColor="#90ffffff"></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="23dp"
+                                android:text="About ITI"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:text="Industrial Training Institutes (ITI) as the best option after 10th standard. The courses under engineering background are technical in nature focusing on concepts of mathematics, science and technology. The Industrial Training Institutes offer engineering and non-engineering ITI courses after 10th. "
+                                android:textColor="#90ffffff"></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

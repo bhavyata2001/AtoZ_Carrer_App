@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HscCourse"></activity>
+        <activity android:name=".JournalismCourse" />
+        <activity android:name=".EconomicCourse" />
+        <activity android:name=".CfpCourse" />
+        <activity android:name=".CsCourse" />
+        <activity android:name=".BbaCourse" />
+        <activity android:name=".CaCourse" />
+        <activity android:name=".CmaCourse" />
+        <activity android:name=".LlbCourse" />
+        <activity android:name=".BcomCourse" />
+        <activity android:name=".FashionCourse" />
+        <activity android:name=".ArtsCourse" />
+        <activity android:name=".BcaCourse" />
+        <activity android:name=".BscCourse" />
+        <activity android:name=".BtechCourse" />
+        <activity android:name=".SscCourse" />
+        <activity android:name=".GsebAndCbscCourse" />
+        <activity android:name=".PlayGroupCourse" />
+        <activity android:name=".Iti" />
+        <activity android:name=".Arts" />
+        <activity android:name=".Commerce" />
+        <activity android:name=".Science" />
+        <activity android:name=".Diploma" />
+        <activity android:name=".Cbse" />
+        <activity android:name=".Gseb" />
+        <activity android:name=".SeniorKg" />
+        <activity android:name=".JuniorKg" />
+        <activity android:name=".PlayGroup" />
+        <activity android:name=".Nursary" />
+        <activity android:name=".WorkFromHome" />
+        <activity android:name=".Hsc" />
+        <activity android:name=".Ssc" />
+        <activity android:name=".Schools" />
+        <activity android:name=".FirstFeetCourses" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignIn_Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".SignUp_Activity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".SignActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GsebAndCbscCourse"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About GSEB"
+                        android:padding="23dp"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="17dp"
+                        android:textColor="#90ffffff"
+                        android:text="GSEB - The Gujarat Secondary and Higher Secondary Education Board have main task of the Gujarat secondary board is to devise a well-oriented syllabus for the secondary level schools and to find the right textbooks which cover the complete syllabus with proper explanations for all the state and private schools coming under its administration. The GSEB is also in charge of duties like evaluating the performance of already registered schools, inspections of the schools under the Gujarat education board and affiliating new schools to the GSEB board.
+                                                                            "></TextView>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg2"
+            android:orientation="vertical"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About CBSE"
+                        android:padding="23dp"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="17dp"
+                        android:textColor="#90ffffff"
+                        android:text="GSEB - The Gujarat Secondary and Higher Secondary Education Board have main task of the Gujarat secondary board is to devise a well-oriented syllabus for the secondary level schools and to find the right textbooks which cover the complete syllabus with proper explanations for all the state and private schools coming under its administration. The GSEB is also in charge of duties like evaluating the performance of already registered schools, inspections of the schools under the Gujarat education board and affiliating new schools to the GSEB board.
+                                                                            "></TextView>
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

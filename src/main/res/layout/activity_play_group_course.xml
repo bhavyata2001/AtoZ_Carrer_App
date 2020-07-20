@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayGroupCourse"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Playgroup"
+                        android:padding="23dp"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="17dp"
+                        android:textColor="#90ffffff"
+                        android:text="A preschool, also known as pre-primary school, or play school, is an educational establishment or learning space offering early childhood education to children before they begin compulsory education at primary school It may be publicly or privately operated. A playgroup or pre-school group is a registered childcare facility that offers sessional care - usually 2-3 hours - for children between the ages of 3-5 years, though they may take children from 2 years.
+They may be run by a committee of parents and staffed by a qualified or experienced supervisor with assistant(s), with parents helping on a voluntary rota basis."></TextView>
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2"
+                    >
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="About Nursery"
+                                android:padding="23dp"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:fontFamily="monospace"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:textColor="#90ffffff"
+                                android:text="A nursery school is a school for children between the ages of 2 and 5 that is staffed by qualified teachers and professionals who encourage and supervise educational play rather than simply provide child care. Another common name for nursery school is preschool. From their very inception, nursery schools were designed to improve the health and welfare of children.
+ Children are only required to go to school for nine years of lower and upper basic school. Attendance before elementary school and after nine years have been completed is the choice of parents and students."></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    >
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="About JuniorKg"
+                                android:padding="23dp"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:fontFamily="monospace"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:textColor="#90ffffff"
+                                android:text="Lower Kindergarten and UKG, in short, acts a preschool education. Children who are around 3 to 4 years old can get admission to LKG. Since LKG is primary education, the children are taught in a playful manner such as playing, singing, drawing, etc. which in turn helps LKG children to acquire the knowledge easily.
+There are various activities conducted by schools. So that LKG students can learn from these activities. These schools are adopting technology also to teach students by video stories and also there are books that can speak with a pen.This all-day program features comprehensive curriculum, with a strong focus on these knowledge areas:
+        Language and Literacy,Math,Nature and Science,Social Studies,Creative Arts,Physical Development and Health,Critical Learning Skills."></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg2"
+                    >
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="About SeniorKg"
+                                android:padding="23dp"
+                                android:textColor="#fff"
+                                android:textSize="18sp"
+                                android:fontFamily="monospace"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="17dp"
+                                android:textColor="#90ffffff"
+                                android:text=" So that UKG students can learn from these activities. These schools are adopting technology also to teach students by video stories and also there are books that can speak with a pen.This all-day program features comprehensive curriculum, with a strong focus on these knowledge areas:
+        Language and Literacy,Math,Nature and Science,Social Studies,Creative Arts,Physical Development and Health,Critical Learning Skills."></TextView>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
